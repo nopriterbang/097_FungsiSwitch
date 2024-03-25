@@ -46,29 +46,30 @@ int main()
 		cout << "5.Exit " << endl;
 		cout << "Masukan pilihan 1/2/3/4/5 :";
 		cin >> pilihan;
-	}
-	 switch (pilihan)
-	 {
-	 case 1:
+	} while (pilihan != 5);
+	switch (pilihan)
+	{
+	case 1:
 		input();
 		cout << "Hasil Penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
 		break;
-	 case 2:
+	case 2:
 		input();
 		cout << "Hasil Pembagian = " << pembagian(bilSatu, bilDua) << endl;
 		break;
-	 case 3:
+	case 3:
 		input();
 		cout << "Hasil Perkalian = " << perkalian(bilSatu, bilDua) << endl;
 		break;
-	 case 4:
-		 input();
-		 cout << "Hasil Pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
-		 break;
-	 case 5:
-		 break;
-	 default:
-		 cout << "Pilihan tidak ada" << endl
-		 break;
-	 }
+	case 4:
+		input();
+		cout << "Hasil Pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+		break;
+	case 5:
+		break;
+	default:
+		cout << "Pilihan tidak ada" << endl
+		break;
+	}
 }
+
