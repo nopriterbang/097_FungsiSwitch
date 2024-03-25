@@ -35,7 +35,7 @@ int main()
 {
 	int pilihan;
 
-	do
+	do // perulangan do while
 	{
 		cout << "==============" << endl;
 		cout << "MENU" << endl;
@@ -47,6 +47,7 @@ int main()
 		cout << "Masukan pilihan 1/2/3/4/5 :";
 		cin >> pilihan;
 	} while (pilihan != 5);
+	
 	switch (pilihan)
 	{
 	case 1:
