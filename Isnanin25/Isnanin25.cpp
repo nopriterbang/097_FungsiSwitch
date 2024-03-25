@@ -16,7 +16,7 @@ float penjumlahan(float a, float b)
 	return a + b;
 }
 
-float pembagian(float a, flot b
+float pembagian(float a, float b)
 	{
 		return a / b;
 	}
