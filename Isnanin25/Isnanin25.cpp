@@ -26,7 +26,7 @@ float perkalian(float a, float b)
 	return a * b;
 }
 
-flay pengurangan(float a, floar b)
+float pengurangan(float a, float b)
 {
 	return a - b;
 }
